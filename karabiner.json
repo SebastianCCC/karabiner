@@ -1,6 +1,7 @@
 {
   "global": {
-    "show_in_menu_bar": false
+    "show_in_menu_bar": false,
+    "check_for_updates_on_startup": false
   },
   "profiles": [
     {
@@ -169,7 +170,7 @@
                 "description": "Open -a 'Slack.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "s",
+                  "key_code": "l",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -265,7 +266,7 @@
                 "description": "Open -a 'Spotify.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "p",
+                  "key_code": "s",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -359,6 +360,30 @@
                 "type": "basic",
                 "from": {
                   "key_code": "c",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_r",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open raycast://extensions/raycast/floating-notes/toggle-floating-notes-window"
+                  }
+                ],
+                "description": "Open raycast://extensions/raycast/floating-notes/toggle-floating-notes-window",
+                "type": "basic",
+                "from": {
+                  "key_code": "f",
                   "modifiers": {
                     "optional": [
                       "any"

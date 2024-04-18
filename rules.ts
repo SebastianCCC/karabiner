@@ -46,11 +46,11 @@ const rules: KarabinerRules[] = [
       b: app("Arc"),
       v: app("Visual Studio Code"),
       d: app("Discord"),
-      s: app("Slack"),
+      l: app("Slack"),
       n: app("Notion"),
       t: app("Warp"),
       f: app("Finder"),
-      p: app("Spotify"),
+      s: app("Spotify"),
     },
 
     // r = "Raycast"
@@ -58,6 +58,9 @@ const rules: KarabinerRules[] = [
       p: open("raycast://extensions/raycast/raycast/confetti"),
       c: open(
         "raycast://extensions/raycast/clipboard-history/clipboard-history"
+      ),
+      f: open(
+        "raycast://extensions/raycast/floating-notes/toggle-floating-notes-window"
       ),
     },
   }),
