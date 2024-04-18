@@ -69,6 +69,7 @@ fs.writeFileSync(
     {
       global: {
         show_in_menu_bar: false,
+        check_for_updates_on_startup: false,
       },
       profiles: [
         {
