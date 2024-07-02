@@ -170,7 +170,7 @@
                 "description": "Open -a 'Slack.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "k",
+                  "key_code": "q",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -194,7 +194,7 @@
                 "description": "Open -a 'Logic Pro X.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "l",
+                  "key_code": "x",
                   "modifiers": {
                     "optional": [
                       "any"
