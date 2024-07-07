@@ -1,6 +1,6 @@
 import fs from "fs";
 import { KarabinerRules } from "./types";
-import { createHyperSubLayers, app, open } from "./utils";
+import { app, createHyperSubLayers, open } from "./utils";
 
 const rules: KarabinerRules[] = [
   // Define the Hyper key itself
@@ -45,6 +45,7 @@ const rules: KarabinerRules[] = [
     a: {
       b: app("Arc"),
       v: app("Visual Studio Code"),
+      z: app("Zed"),
       e: app("HTTPie"),
       d: app("Discord"),
       q: app("Slack"),
