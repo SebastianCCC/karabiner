@@ -431,7 +431,7 @@
                 "description": "Open raycast://extensions/raycast/raycast/confetti",
                 "type": "basic",
                 "from": {
-                  "key_code": "p",
+                  "key_code": "c",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -455,7 +455,7 @@
                 "description": "Open raycast://extensions/raycast/clipboard-history/clipboard-history",
                 "type": "basic",
                 "from": {
-                  "key_code": "c",
+                  "key_code": "h",
                   "modifiers": {
                     "optional": [
                       "any"

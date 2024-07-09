@@ -59,8 +59,8 @@ const rules: KarabinerRules[] = [
 
     // r = "Raycast"
     r: {
-      p: open("raycast://extensions/raycast/raycast/confetti"),
-      c: open(
+      c: open("raycast://extensions/raycast/raycast/confetti"),
+      h: open(
         "raycast://extensions/raycast/clipboard-history/clipboard-history"
       ),
       f: open(
