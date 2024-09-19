@@ -44,9 +44,7 @@ const rules: KarabinerRules[] = [
     // a = "applications"
     a: {
       b: app("Arc"),
-      v: app("Visual Studio Code"),
-      z: app("Zed"),
-      e: app("HTTPie"),
+      e: app("Zed"),
       d: app("Discord"),
       q: app("Slack"),
       x: app("Logic Pro X"),
