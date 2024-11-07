@@ -425,13 +425,13 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/raycast/floating-notes/toggle-floating-notes-window"
+                    "shell_command": "open raycast://extensions/raycast/raycast-notes/raycast-notes"
                   }
                 ],
-                "description": "Open raycast://extensions/raycast/floating-notes/toggle-floating-notes-window",
+                "description": "Open raycast://extensions/raycast/raycast-notes/raycast-notes",
                 "type": "basic",
                 "from": {
-                  "key_code": "f",
+                  "key_code": "n",
                   "modifiers": {
                     "optional": [
                       "any"
