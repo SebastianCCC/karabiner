@@ -140,10 +140,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Discord.app'"
+                    "shell_command": "open -a 'legcord.app'"
                   }
                 ],
-                "description": "Open -a 'Discord.app'",
+                "description": "Open -a 'legcord.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "d",
