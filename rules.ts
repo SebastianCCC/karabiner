@@ -47,7 +47,7 @@ const rules: KarabinerRules[] = [
       e: app("Zed"),
       d: app("legcord"),
       q: app("Slack"),
-      x: app("Logic Pro X"),
+      x: app("Logic Pro"),
       c: app("Charles"),
       n: app("Notion"),
       t: app("Warp"),
