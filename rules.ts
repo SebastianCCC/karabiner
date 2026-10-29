@@ -43,7 +43,7 @@ const rules: KarabinerRules[] = [
   ...createHyperSubLayers({
     // a = "applications"
     a: {
-      b: app("Arc"),
+      b: app("Dia"),
       e: app("Zed"),
       d: app("legcord"),
       q: app("Slack"),
